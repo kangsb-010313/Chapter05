@@ -25,7 +25,9 @@ public class Ex03 {
 		=> 문제에 있는 형식으로 출력
 		*/
 		
-		Reader fr = new FileReader("C:\\javaStudy\\PhoneDB.txt");
+		//* mac 경로 => "/Users/kangsubin/Desktop/javaStudy/PhoneDB.txt"
+		//* 윈도우 경로 => "C:\\javaStudy\\PhoneDB.txt"
+		Reader fr = new FileReader("/Users/kangsubin/Desktop/javaStudy/PhoneDB.txt");
 		BufferedReader br = new BufferedReader(fr);
 		
 		
