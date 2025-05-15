@@ -17,7 +17,7 @@ public class Ex01 {
 		BufferedWriter bw = new BufferedWriter(fw);
 		
 		bw.write("학교종이 땡땡땡");
-		bw.newLine();
+		bw.newLine(); //맥에서는 다를 수 있음
 		bw.write("어서모이자");
 		bw.newLine();
 		bw.write("선생님이 우리를");
