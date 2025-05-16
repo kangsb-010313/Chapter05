@@ -27,7 +27,7 @@ public class Ex03 {
 		
 		//* mac 경로 => "/Users/kangsubin/Desktop/javaStudy/PhoneDB.txt"
 		//* 윈도우 경로 => "C:\\javaStudy\\PhoneDB.txt"
-		Reader fr = new FileReader("/Users/kangsubin/Desktop/javaStudy/PhoneDB.txt");
+		Reader fr = new FileReader("C:\\javaStudy\\PhoneDB.txt");
 		BufferedReader br = new BufferedReader(fr);
 		
 		
