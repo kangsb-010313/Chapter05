@@ -10,6 +10,8 @@ public class Ex02 {
 	public static void main(String[] args) throws IOException{
 		
 		//주 스트림 준비
+		//window 경로 => "C:\\javaStudy\\song.txt"
+		//mac 경로 => "/Users/kangsubin/Desktop/javaStudy/song.txt"
 		Reader fr = new FileReader("C:\\javaStudy\\song.txt"); 
 		
 		//보조 스트림 준비
@@ -17,11 +19,14 @@ public class Ex02 {
 		
 		System.out.println("스트림 준비완료");
 		
+		System.out.println("--------------------------------");
+		
 		while(true) {
 			
 			String str = br.readLine(); //한 줄 출력(?)
 			
 			if(str == null) { //str.equals(null) 아닌 이유 -> 문자가 같냐 물어보는게 아님
+				System.out.println("--------------------------------");
 				System.out.println("파일 읽기 끝");
 				break;
 			}

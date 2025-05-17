@@ -13,6 +13,8 @@ public class Ex01 {
 		
 		
 		//주 스트림 준비
+		//window => "C:\\javaStudy\\MS949.txt"
+		//mac => "/Users/kangsubin/Desktop/javaStudy/MS949.txt"
 		Reader fr = new FileReader("C:\\javaStudy\\MS949.txt");
 		//보조 스트림 준비
 		BufferedReader br = new BufferedReader(fr);

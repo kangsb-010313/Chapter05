@@ -10,6 +10,8 @@ public class Ex01 {
 	public static void main(String[] args) throws IOException{
 
 		//주 스트림
+		//window 경로 => "C:\\javaStudy\\song.txt"
+		//mac 경로 => "/Users/kangsubin/Desktop/javaStudy/song.txt"
 		Writer fw = new FileWriter("C:\\javaStudy\\song.txt");
 		
 		
@@ -17,7 +19,7 @@ public class Ex01 {
 		BufferedWriter bw = new BufferedWriter(fw);
 		
 		bw.write("학교종이 땡땡땡");
-		bw.newLine(); //맥에서는 다를 수 있음
+		bw.newLine(); //맥에서는 다를 수 있음 --> 안 다른 듯? 결과 똑같이 나옴
 		bw.write("어서모이자");
 		bw.newLine();
 		bw.write("선생님이 우리를");

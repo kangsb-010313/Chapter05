@@ -14,6 +14,9 @@ public class Ex02 {
 
 	public static void main(String[] args) throws IOException{
 		
+		//window => "C:\\javaStudy\\MS949.txt"
+		//mac => "/Users/kangsubin/Desktop/javaStudy/MS949.txt"
+		
 		//읽기스트림 준비
 		InputStream in = new FileInputStream("C:\\javaStudy\\MS949.txt"); //주 스트림 --> 2진수로 읽어온다
 		InputStreamReader isr = new InputStreamReader(in, "MS949");	//보조 스트림 --> 2진수를 MS949형식으로 해석한다
